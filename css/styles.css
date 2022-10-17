@@ -28,8 +28,7 @@ body{
 
 /*Хедер*/
 .conteiner{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -72,8 +71,8 @@ h5,
 h6,
 p,
 ul{
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -231,10 +230,11 @@ ul{
   margin-left: 30px;
 }
 .section-members{
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--background-color);
 }
 .our-team{
-  padding-top: 94px;
   margin-bottom: 50px;
   text-align: center;
   color: var(--title-text-color);
@@ -246,7 +246,6 @@ ul{
 .list-members{
   display: flex;
   padding:0;
-  padding-bottom: 94px;
   list-style: none;
 }
 .list-members .member+.member {
